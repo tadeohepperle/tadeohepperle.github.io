@@ -16,8 +16,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <link href="style/cover.css" rel="stylesheet" />
-    <link href="style/index.css" rel="stylesheet" />
+    <link href="assets/css/cover.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <script src="assets/js/background.js"></script>
     <meta name="theme-color" content="#167871" />
     <style>
       .bd-placeholder-img {
@@ -37,6 +38,7 @@
   </head>
 
   <body class="d-flex text-center text-white bg-dark2">
+    <canvas id="background"></canvas>
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto">
         <div>
@@ -54,7 +56,12 @@
       </header>
 
       <main class="px-3">
-        <img src="media/profile_pic.jpg" alt="" id="profile_pic" class="mt-4" />
+        <img
+          src="assets/img/profile_pic.jpg"
+          alt=""
+          id="profile_pic"
+          class="my-4"
+        />
         <h1>Tadeo Hepperle</h1>
         <p class="lead my-4">
           I am a software developer with a passion for learning and building
